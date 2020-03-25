@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "deploy": "yarn build && cp build/index.html build/200.html && surge --domain spotty-wealth.surge.sh",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
