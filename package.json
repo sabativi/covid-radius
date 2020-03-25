@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rooks/use-geolocation": "^3.6.0",
     "algolia-places-react": "^1.5.1",
     "circle-to-polygon": "^2.0.1",
     "mapbox-gl": "^1.9.0",
@@ -10,7 +11,8 @@
     "react-dom": "^16.13.1",
     "react-mapbox-gl": "^4.8.3",
     "react-scripts": "3.4.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "styled-components-grid": "^2.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
